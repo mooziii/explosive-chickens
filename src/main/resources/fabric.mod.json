@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "Explosive Chickens",
+  "id": "explosive-chickens",
+  "version": "${version}",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.obsilabor.explosivechickens.ExplosiveChickens"
+    ],
+    "main": [
+      "me.obsilabor.explosivechickens.ExplosiveChickens"
+    ]
+  },
+  "depends": {
+    "fabric": "*"
+  },
+  "license": "MIT",
+  "description": "Really stupid mod that adds chickens that explode when you kill them.",
+  "icon": "assets/explosivechickens/icon.png",
+  "authors": [
+    "mooziii"
+  ],
+  "contact": {
+    "sources": "https://github.com/mooziii/explosive-chickens-fabric",
+    "issues": "https://github.com/mooziii/explosive-chickens-fabric/issues"
+  }
+}
