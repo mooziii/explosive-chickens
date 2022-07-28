@@ -4,17 +4,17 @@ plugins {
 }
 
 group = "me.obsilabor"
-version = "1.0.0+mc1.19"
+version = "1.0.0+mc1.19.1"
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    minecraft("com.mojang:minecraft:1.19")
-    mappings("net.fabricmc:yarn:1.19+build.4")
+    minecraft("com.mojang:minecraft:1.19.1")
+    mappings("net.fabricmc:yarn:1.19.1+build.1")
     modImplementation("net.fabricmc:fabric-loader:0.14.8")
-    modImplementation("net.fabricmc.fabric-api:fabric-api:0.56.3+1.19")
+    modImplementation("net.fabricmc.fabric-api:fabric-api:0.58.5+1.19.1")
 }
 
 tasks {
